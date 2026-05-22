@@ -1,7 +1,7 @@
 // File: Code.gs
 
 // Masukkan URL Google Sheets Anda di dalam tanda kutip di bawah ini
-var SHEET_URL = "https://docs.google.com/spreadsheets/d/130j1M7AsnRDDGywEJ9gI19kIN19YG149iGoR3OHsJRY/edit?gid=0#gid=0";
+var SHEET_URL = "https://docs.google.com/spreadsheets/d/130j1M7AsnRDDGywEJ9gI19kIN19YG149iGoR3OHsJRY/edit";
 
 function doGet(e) {
   var page = e.parameter.p || 'index';
